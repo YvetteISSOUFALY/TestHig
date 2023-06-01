@@ -18,7 +18,6 @@ public class Page6 {
         PageFactory.initElements(driver, this);
     }
 
-
     public void waitForInboxPageLoad() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.titleContains("Boite de réception"));

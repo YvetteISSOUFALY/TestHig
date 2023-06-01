@@ -20,8 +20,6 @@ public class Pagetest {
     private Page5 url;
     private Page5 page5;
 
-
-
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
@@ -39,6 +37,7 @@ public class Pagetest {
     public void testNavigationEntrePages() throws InterruptedException {
         //ouvrir l'url
         driver.get("https://hightest.nc/");
+
         // cliquer sur le bouton toolbox
         Thread.sleep(30000);
         page1.cliquerSurBouton();

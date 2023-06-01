@@ -32,12 +32,10 @@ public class Page5 {
         Chmailyop.sendKeys(email2);
     }
 
-
     public void BtOKf() {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(btflesh));
         btflesh.click();
     }
-
 
 }

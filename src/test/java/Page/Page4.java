@@ -19,7 +19,7 @@ public class Page4 {
     public Page4(WebDriver driver) {
             this.driver = driver;
             PageFactory.initElements(driver, this);
-        }
+    }
 
     public void Chmail(String email) {
         WebDriverWait wait = new WebDriverWait(driver, 10);

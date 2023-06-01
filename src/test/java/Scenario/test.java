@@ -9,9 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.Set;
 
+//cette test c'est une code selenium qui n'utilise pas un "Design pattern"
 public class test {
     public static void main(String[] args) throws InterruptedException {
         // Ouverture du navigateur et accès à la page de connexion
@@ -266,7 +266,7 @@ public class test {
         if (radioButton19.isSelected()) {
             // Le bouton radio de la dix-neuvième question est maintenant sélectionné
         }
-        ////*[@id="submit"]
+        
 
         By BtTermine = By.xpath("//*[@id=\"submit\"]");
         WebElement BtnTerminer = wait9.until(ExpectedConditions.elementToBeClickable(BtTermine));

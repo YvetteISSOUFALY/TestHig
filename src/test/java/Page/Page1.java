@@ -15,10 +15,10 @@ public class Page1 extends BasePage{
 
     //initialiser la classe Page1 avec un objet WebDriver qui sera utilisé pour piloter le navigateur
     // et effectuer des actions spécifiques à cette page.
-    public Page1(WebDriver driver) {
-        super(driver);
-        this.driver = driver;
-    }
+        public Page1(WebDriver driver) {
+            super(driver);
+            this.driver = driver;
+        }
         //  méthodes spécifiques à la page 1
         public void cliquerSurBouton() {
             WebDriverWait wait = new WebDriverWait(driver, 10);

@@ -28,38 +28,37 @@ public class Page2 extends BasePage {
             super(driver);
             this.driver = driver;
         }
-       //  méthodes spécifiques à la page 1
-    public void closePopup() {
+       //  méthodes spécifiques à la page 2
+        public void closePopup() {
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(fermerButton));
         fermerButton.click();
-    }
+        }
 
-    public void acceptCookies() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOf(accepterButton));
-        accepterButton.click();
-    }
+        public void acceptCookies() {
+            WebDriverWait wait = new WebDriverWait(driver, 10);
+            wait.until(ExpectedConditions.visibilityOf(accepterButton));
+            accepterButton.click();
+         }
 
-    public void clickFrancaisLink() {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", francaisLink);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        public void clickFrancaisLink() {
+            WebDriverWait wait = new WebDriverWait(driver, 20);
+            JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+            jsExecutor.executeScript("arguments[0].scrollIntoView(true);", francaisLink);
+            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 
         // Attendre que l'élément <div> soit cliquable
-        WebElement divElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"page\"]/div[2]/div/section/article/div[2]/div/div[1]/div")));
+             WebElement divElement = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"page\"]/div[2]/div/section/article/div[2]/div/div[1]/div")));
 
-        JavascriptExecutor jsExecutor2 = (JavascriptExecutor) driver;
-        jsExecutor2.executeScript("arguments[0].scrollIntoView(true);", divElement);
+            JavascriptExecutor jsExecutor2 = (JavascriptExecutor) driver;
+            jsExecutor2.executeScript("arguments[0].scrollIntoView(true);", divElement);
 
         // Cliquer sur l'élément <a> à l'intérieur de l'élément <div>
-        WebElement francaisLink = divElement.findElement(By.tagName("a"));
-        francaisLink.click();
-    }
+            WebElement francaisLink = divElement.findElement(By.tagName("a"));
+            francaisLink.click();
+        }
 
 
-    // Ajoutez des méthodes spécifiques à la page 2 ici
 }
 

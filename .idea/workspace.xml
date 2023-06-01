@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f3d9889a-e6e4-4ff5-b2e0-b6d8ba6694f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Page6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Page6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Page/Pagetest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page/Pagetest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Scenario/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scenario/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,12 +166,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Page/Pagetest.java</url>
-          <line>130</line>
+          <line>129</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Page/Pagetest.java</url>
-          <line>40</line>
+          <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
