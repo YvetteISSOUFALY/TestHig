@@ -28,7 +28,7 @@ public class Page2 extends BasePage {
             super(driver);
             this.driver = driver;
         }
-    //  méthodes spécifiques à la page 1
+       //  méthodes spécifiques à la page 1
     public void closePopup() {
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
